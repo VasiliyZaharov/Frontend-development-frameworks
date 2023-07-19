@@ -1,6 +1,10 @@
 # Содержание
 :arrow_down: [Модуль F1 Основы React](README.md#Модуль-F1-Основы-React)
 <br>
+:arrow_down: [Модуль F2 Свойства и состояния объектов Redux Flux](README.md#Модуль-F2-Свойства-и-состояния-объектов-Redux-Flux)
+<br>
+:arrow_down: [Модуль F3 Практика React Часть 1](README.md#Модуль-F3-Практика-React-Часть-1)
+<br>
 
 # Модуль F1 Основы React
 
@@ -61,3 +65,39 @@
 3. Данные должны запрашиваться через One Call API OpenWeather.
 
 Ссылка на выполненное задание: https://github.com/VasiliyZaharov/Frontend-development-frameworks/tree/main/Module%20F1.%20React%20Basics
+
+# Модуль F2 Свойства и состояния объектов Redux Flux
+
+В ходе прохождения модуля было изучено:
+
+<p>1. Управление состоянием в фронтенд-приложениях</p>
+
+<p>2. Flux</p>
+
+<p>3. Redux</p>
+
+<p>4. Различия в подходе Flux и Redux</p>
+
+<p>5. Практическое применение Redux</p>
+<ul>
+<li>Перейдем к практике</li>
+<li>Связываем Redux с представлением</li>
+<li>Устанавливаем Redux connect</li>
+<li>Инициализация события</li>
+<li>Композиция функций — combineReducers</li>
+<li>Работа с асинхронностью. Middleware</li>
+<li>Композиция функций через compose. Redux devtools</li>
+<li>BindActionCreator. Структура Redux-приложения</li>
+</ul>
+
+# Модуль F3 Практика React Часть 1
+
+В ходе прохождения модуля было изучено:
+
+<p>1. Методы жизненного цикла и состояние компонентов в React</p>
+
+<p>2. Обработка событий в React</p>
+
+<p>3. Взаимодействие клиента и сервера</p>
+
+<p>4. Работа с API</p>
