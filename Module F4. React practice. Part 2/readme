@@ -1,0 +1,12 @@
+Запуск серверной части проекта:
+- pip install -r requirements.txt
+- python manage.py runserver
+
+Запуск проекта:
+- npm i
+- npm start
+
+Основная страница: http://localhost:8080/
+Категории: http://127.0.0.1:8000/api/categorylist
+Список рецептов: http://127.0.0.1:8000/api/pecipelist
+Swagger: http://127.0.0.1:8000/swagger/
