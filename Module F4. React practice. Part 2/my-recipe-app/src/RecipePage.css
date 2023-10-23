@@ -1,0 +1,39 @@
+.recipe-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .recipe-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-section {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .recipe-list {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .back-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
