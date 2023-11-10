@@ -272,6 +272,9 @@
 <li>Подключаем фронтенд к бэкенду</li>
 </ul>
 
+Ссылка на выполненное задание: https://github.com/VasiliyZaharov/Frontend-development-frameworks/tree/main/Module%20F8.%20Creating%20a%20modern%20web%20application%20with%20Django%20and%20React
+
+
 # Модуль F9 Клиент серверное взаимодействие через веб сокеты
 
 В ходе прохождения модуля было изучено:
