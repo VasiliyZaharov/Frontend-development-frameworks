@@ -1,0 +1,270 @@
+@charset "UTF-8";
+.tariff-card {
+  box-sizing: border-box;
+  width: 413px;
+  height: 560px;
+  background: #FFFFFF;
+  border: 2px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.card-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Карточки будут заполнять доступное пространство, но не будут меньше 250px */
+  gap: 1%; /* Гэп между карточками в процентах, который адаптируется под размер экрана */
+  justify-content: center; /* Центрирование карточек в контейнере */
+}
+
+.tariff-card.selected {
+  border: 3px solid #FFB64F;
+  font-weight: bold;
+}
+
+.card-wrapper {
+  position: relative;
+  top: -30px;
+}
+
+.card-upper-side {
+  width: 412px;
+  height: 132px;
+  color: #FFB64F;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.title-part {
+  display: block;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.card-title {
+  padding-top: 30px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  margin-bottom: 6px;
+  color: #000000;
+}
+
+.card-title_info {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  margin-top: 4px;
+  color: #000000;
+}
+
+.card-logo {
+  position: absolute;
+  width: 92.24px;
+  height: 83.15px;
+  left: 305.24px;
+  top: 25px;
+  z-index: 2;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.card-content {
+  display: block;
+  padding-left: 20px;
+}
+
+.card-prices {
+  display: block;
+  text-align: left;
+}
+
+.card-prices {
+  display: inline;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #000000;
+}
+
+#price-prev {
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  text-decoration-line: line-through;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.card-prices_title-info {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.card-list {
+  padding-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+ul {
+  font-weight: 400;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+li {
+  margin-left: -15px;
+}
+
+li::before {
+  content: url("../../../../public/icon-1.png");
+  margin-inline-end: 1ch;
+}
+
+.card-btn {
+  margin-top: 30px;
+  width: 365px;
+  height: 59px;
+  background: #5970FF;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+
+.card-btn:hover {
+  background-color: #7594f5;
+}
+
+.additional-btn {
+  position: absolute;
+  top: 145px;
+  left: 260px;
+  width: 134px;
+  height: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  background: #3BA5E0;
+  border-radius: 10px;
+}
+
+.card-upper-side.yellow {
+  background: #FFB64F;
+}
+
+.card-upper-side.blue {
+  background: #7CE3E1;
+}
+
+.card-upper-side.black {
+  background: #000000;
+}
+
+.card-list-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+@media (max-width: 414px) {
+  .card-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .tariff-card {
+    box-sizing: border-box;
+    width: 350px;
+    height: 560px;
+    background: #FFFFFF;
+    border: 2px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .card-upper-side {
+    width: 350px;
+    height: 122px;
+    color: #FFB64F;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .card-btn {
+    width: 310px;
+    height: 59px;
+  }
+  .card-logo {
+    position: absolute;
+    width: 72.24px;
+    height: 73.15px;
+    left: 245.24px;
+    top: 20px;
+    z-index: 2;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .card-prices_title-info {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  .additional-btn {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    width: 134px;
+    height: 24px;
+  }
+}
+@media (min-width: 1500px) {
+  .card-list-wrapper {
+    gap: 6%;
+  }
+}
+@media (min-width: 1920px) {
+  .card-list-wrapper {
+    gap: 8%;
+  }
+}
+
+/*# sourceMappingURL=Card.css.map */

@@ -1,0 +1,145 @@
+.main_page {
+  padding: 20px 40px;
+}
+
+.upper-page-content {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.upper-page-content .info-box {
+  padding-top: 40px;
+  text-align: left;
+}
+.upper-page-content .info-box .main-text {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.upper-page-content .info-box .under-text {
+  margin-bottom: 20px;
+}
+
+.logo-main {
+  width: 629px;
+  height: 593px;
+}
+
+.logo-mid {
+  width: 1307px;
+  height: 576px;
+}
+
+.btn {
+  width: 335px;
+  height: 59px;
+  background-color: #5970FF;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0f0f0;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  text-decoration: none !important;
+}
+
+.btn:hover {
+  background-color: #7594f5;
+}
+
+.middle-page-content {
+  text-align: left;
+  padding: 20px 20px;
+}
+.middle-page-content .title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.middle-page-content .middle-page_center-pic {
+  padding-top: 30px;
+  padding-left: 50px;
+  width: 1307px;
+  height: 576px;
+}
+
+.down-page-content {
+  text-align: left;
+  padding: 20px 40px;
+}
+.down-page-content .down-title {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@media (max-width: 414px) {
+  .upper-page-content {
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .upper-page-content .info-box {
+    padding-top: 40px;
+    text-align: left;
+  }
+  .upper-page-content .info-box .main-text {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .upper-page-content .info-box .under-text {
+    margin-bottom: 20px;
+  }
+  .middle-page-content {
+    padding: 20px 0px;
+  }
+  .middle-page-content .title {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .middle-page-content .middle-page_center-pic {
+    max-width: 20%;
+  }
+  .down-page-content {
+    text-align: left;
+    padding: 20px 0px;
+  }
+  .down-page-content .down-title {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .picture {
+    height: 350px;
+  }
+  .logo-main img {
+    width: 60%;
+    height: 60%;
+  }
+  .middle-page_center-pic {
+    position: relative;
+    right: 65px;
+    top: 10px;
+  }
+  .logo-mid img {
+    width: 75%;
+    height: 80%;
+  }
+}
+
+/*# sourceMappingURL=MainPage.css.map */

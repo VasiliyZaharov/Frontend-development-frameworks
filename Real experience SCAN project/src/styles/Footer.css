@@ -1,0 +1,24 @@
+.footer_b {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.address {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+}
+.address .copyright {
+  font-size: 16px;
+}
+
+@media (max-width: 414px) {
+  .footer_b {
+    padding: 0 10px;
+  }
+}
+
+/*# sourceMappingURL=Footer.css.map */

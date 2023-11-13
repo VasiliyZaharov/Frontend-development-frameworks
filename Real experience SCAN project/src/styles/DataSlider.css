@@ -1,0 +1,114 @@
+.slider-container {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.slider-container .data-slider_box {
+  box-sizing: border-box;
+  width: 1260px;
+  height: 158px;
+  background: #FFFFFF;
+  border: 2px solid #029491;
+  border-radius: 10px;
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+}
+
+.data-slider_left-part {
+  width: 133px;
+  height: 158px;
+  background: #029491;
+  border-radius: 10px 0px 0px 10px;
+}
+.data-slider_left-part .data-slider_titles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  margin-left: 27px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.data-slider_left-part .data-slider_titles .titles {
+  margin-bottom: 26px;
+}
+
+.wrapper_1 {
+  display: flex;
+}
+
+.slider-btn_left, .slider-btn_right {
+  flex-shrink: 0;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+table .separator_stat {
+  width: 2px;
+  height: 124px;
+  opacity: 40%;
+  color: #949494;
+}
+
+.table-tr {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.table-value {
+  margin-right: 20px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.data-slider_cards-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 414px) {
+  .data-slider_cards-row > :nth-child(n+2) {
+    display: none;
+  }
+  .slider-container {
+    display: flex;
+    align-items: center;
+  }
+  .slider-container .data-slider_box {
+    width: 100px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+  .data-slider_left-part {
+    width: 100%;
+    height: 158px;
+    background: #029491;
+    border-radius: 7px 0px 0px 0px;
+  }
+  .data-slider_left-part .data-slider_titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=DataSlider.css.map */
